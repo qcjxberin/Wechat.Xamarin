@@ -11,9 +11,9 @@
     <attr path="/api/package[@name='com.tencent.wxop.stat']/class[@name='StatAppMonitor']/method[@name='clone' and count(parameter)=0]" name="managedName">NewClone</attr>
     <attr path="/api/package[@name='com.tencent.wxop.stat']/class[@name='StatGameUser']/method[@name='clone' and count(parameter)=0]" name="managedName">NewClone</attr>
     <attr path="/api/package[@name='com.tencent.mm.sdk.openapi']/class[@name='WXApiImplV10.1']" name="name">WXApiImplV10</attr>
-	<attr path="/api/package[@name='com.tencent.wxop.stat']/class[@name='StatConfig']/method[@name='getCustomLogger']" name="return">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='com.tencent.wxop.stat']/class[@name='StatConfig']/method[@name='setCustomLogger']/parameter[1]" name="type">Java.Lang.Object</attr>
-	
+    <attr path="/api/package[@name='com.tencent.wxop.stat']/class[@name='StatConfig']/method[@name='getCustomLogger']" name="return">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.tencent.wxop.stat']/class[@name='StatConfig']/method[@name='setCustomLogger']/parameter[1]" name="type">Java.Lang.Object</attr>
+    
     <add-node path="/api/package[@name='com.tencent.mm.sdk.modelpay']">
         <class abstract="false" deprecated="not deprecated" extends="com.tencent.mm.sdk.modelbase.BaseReq" extends-generic-aware="com.tencent.mm.sdk.modelbase.BaseReq" final="false" name="PayReq" static="false" visibility="public">
             <constructor deprecated="not deprecated" final="false" name="PayReq" static="false" type="com.tencent.mm.sdk.modelpay.PayReq" visibility="public" />

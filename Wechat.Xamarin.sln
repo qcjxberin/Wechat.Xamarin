@@ -14,4 +14,29 @@ Global
 		{06B6D46E-2156-49E1-9891-696B7DF666B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06B6D46E-2156-49E1-9891-696B7DF666B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.inheritsSet = null
+		$1.inheritsScope = text/plain
+		$1.scope = application/xml
+		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchSection = True
+		$2.NewLinesForBracesInTypes = False
+		$2.NewLinesForBracesInMethods = False
+		$2.NewLineForMembersInObjectInit = True
+		$2.NewLineForMembersInAnonymousTypes = True
+		$2.NewLineForClausesInQuery = True
+		$2.SpacingAfterMethodDeclarationName = False
+		$2.SpaceAfterMethodCallName = False
+		$2.SpaceBeforeOpenSquareBracket = False
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.XmlFormattingPolicy = $3
+		$3.inheritsSet = Mono
+		$3.inheritsScope = application/xml
+		$3.scope = application/xml
+	EndGlobalSection
 EndGlobal
